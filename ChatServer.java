@@ -10,7 +10,7 @@ import java.util.List;
 class ChatHandler implements URLHandler {
   List<String> lines;
   String path;
-  StringHandler(String path) throws IOException {
+  ChatHandler(String path) throws IOException {
     this.path = path;
     this.lines = Files.readAllLines(Paths.get(path));
   }
@@ -41,6 +41,6 @@ class ChatServer {
 
     int port = Integer.parseInt(args[0]);
 
-    Server.start(port, new StringHandler(args[1]));
+    Server.start(port, new ChatHandler(args[1]));
   }
 }

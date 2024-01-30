@@ -37,9 +37,15 @@ The if statement excecuted to revieve this action looks for `/add-message` in th
 
 i. *The absolute path to the private key for your SSH key for logging into ieng6*
 
+![Image](PrivateKey.png)
+
 ii. *The absolute path to the public key for your SSH key for logging into ieng6*
 
+![Image](PublicKey.png)
+
 iii. *A terminal interaction where I log into my ieng6 account without being asked for a password*
+
+![Image](LoggingInWithoutP.png)
 
 ## Part 3
 

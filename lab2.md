@@ -45,7 +45,7 @@ ii. *The absolute path to the public key for your SSH key for logging into ieng6
 
 ![Image](realPriv.png)
 
-The public key file is id_rsa.pub
+The public key file in this directory is `id_rsa.pub`
 
 iii. *A terminal interaction where I log into my ieng6 account without being asked for a password*
 
